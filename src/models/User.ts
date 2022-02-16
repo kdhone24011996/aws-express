@@ -1,6 +1,6 @@
 import { Document, model, Mongoose, Schema } from "mongoose";
 import { Roles } from "./Roles";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 
 type ComparePasswordFunction = (candidatePassword: string) => Promise<boolean>;
 
