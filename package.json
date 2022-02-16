@@ -9,7 +9,7 @@
   "scripts": {
     "clean": "rimraf dist/*",
     "lint": "tslint -c tslint.json -p tsconfig.json --fix",
-    "tsc": "ts-node src/index.ts",
+    "tsc": "tsc",
     "build": "npm-run-all clean tsc",
     "dev:start": "npm-run-all build ",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
