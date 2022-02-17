@@ -9,6 +9,7 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "baseUrl": ".",
+    "incremental": false,
     "paths": {
       "*": ["node_modules/*"]
     }
