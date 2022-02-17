@@ -146,5 +146,6 @@ process.on("unhandledRejection", errorUnhandledRejection);
 
 app.listen(process.env.PORT || 8000, () => {
   logger.info("connected");
+  logger.info(`server is running in ${process.env.NODE_ENV || "development"}`);
 });
 export default app;
